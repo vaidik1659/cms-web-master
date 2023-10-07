@@ -1,0 +1,40 @@
+.topbar {
+  width: 100%;
+  background-color: aliceblue;
+  height: 5rem;
+  z-index: 5;
+  position: sticky;
+  top: 0;
+}
+
+.topbar-wrapper {
+  margin-left: 13px;
+  margin-right: 13px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  position: relative;
+  top: 10px;
+  font-family: "Cormorant SC", serif;
+}
+
+.topbar-icons {
+  display: flex;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.topbar-icon-container {
+  margin-top: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+  /* background-color: aquamarine; */
+}
+
+.topbar-icon-container :hover {
+  filter: blur(0.5px);
+}

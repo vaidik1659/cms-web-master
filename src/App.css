@@ -1,0 +1,9 @@
+.page-container{
+    display:flex;
+    padding: 5px;
+}
+
+.others{
+    flex:4;
+}
+

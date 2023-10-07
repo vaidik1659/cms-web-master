@@ -1,0 +1,35 @@
+.section{
+    padding:10px;
+    width: 100%;
+    height: 30rem;
+    margin-bottom: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: outline ease 0.2s
+}
+
+.section:hover{
+    outline:  2px solid rgb(84, 84, 243);
+
+}
+
+.defaultSection-container{
+
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(240,240,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.section-icon{
+    font-size: 50px !important;
+}
+
+.section-icon:hover{
+    filter: blur(0.5px);
+}
+
+

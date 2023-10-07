@@ -1,0 +1,46 @@
+.create-page {
+  position: fixed;
+  height: calc(30vh);
+  width: calc(70vh);
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: translate(-50%, -100%);
+}
+
+.page-name-input {
+  width: 50%;
+  margin-bottom: 45px;
+}
+.page-name-input input {
+  width: 70%;
+  height: 120%;
+  margin-right: 20px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.page-name-input button {
+  height: 120%;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+  color: #000;
+  background: rgb(240, 240, 255);
+  border: 0;
+}
+#create-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+}

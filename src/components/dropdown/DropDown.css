@@ -1,0 +1,30 @@
+.user-dropdown {
+  padding-left: 20px;
+  position: fixed;
+  right: 0;
+  top: 4.5rem;
+  width: 10rem;
+  height: 14rem;
+  right: 1rem;
+  background-color: rgb(250, 250, 255);
+  z-index: 5;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.username {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: oblique;
+}
+
+.dropdown-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.dropdown-item {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
